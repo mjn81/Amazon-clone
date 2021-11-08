@@ -1,0 +1,14 @@
+{
+    "second-nav":[
+        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"},
+        {"id" : 2 , "title" : "Customer Service" , "route" : "customerService"},
+        {"id" : 3 , "title" : "Registery" , "route" : "registery"}
+    ],
+    "category" :[
+        {"id" : 1 , "title" : "Electornics" , "route" : "electronics"},
+        {"id" : 2 , "title" : "Clothing" , "route" : "todayDeal"},
+        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"},
+        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"},
+        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"}
+    ]
+}

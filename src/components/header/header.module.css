@@ -1,0 +1,150 @@
+.header {
+  width: 100%;
+}
+
+/* top-navbar */
+.header .top-nav {
+  width: 100%;
+  padding: 0 10px;
+  height: 60px;
+  justify-content: space-between;
+  background-color: var(--primary-dark);
+}
+
+.header .top-nav .search-bar {
+  max-width: 1000px;
+}
+
+.header .top-nav .search-bar,
+#search-input {
+  flex: 1;
+  padding: 9px;
+}
+
+.header .top-nav .search-bar input,
+.header .top-nav .search-bar select {
+  padding: 8.3px 5px;
+}
+
+.header .top-nav .search-bar select:hover {
+  background-color: #ddd;
+  border: 1px solid #bbb;
+}
+
+.header .top-nav .search-bar select option {
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.header .top-nav .search-bar select {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 12px 5px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.header .top-nav .title a > h1 {
+  padding: 5px 10px;
+}
+
+.pr-color {
+  color: var(--primary-color);
+}
+
+.header .top-nav .title a {
+  color: white;
+}
+
+.header .top-nav .title {
+  padding: 10px 15px;
+  color: white;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.header .top-nav .user-area {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.header .top-nav .user-area .item {
+  margin: 0 15px;
+}
+
+.header .top-nav .user-area .item .link {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+}
+
+.header .top-nav .user-area .item:hover .link {
+  text-decoration: underline;
+}
+
+.header .top-nav .user-area .item p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.header .top-nav .user-area .cart .icon {
+  font-size: 2.2rem;
+}
+
+.header .top-nav .user-area .cart .number {
+  font-size: 1.1rem;
+  font-weight: 700;
+  top: 10%;
+  left: 60%;
+  transform: translateX(-50%);
+  color: var(--secondary-color);
+  position: absolute;
+}
+
+.header .top-nav .user-area .cart a {
+  color: white;
+  position: relative;
+}
+
+.header .top-nav .user-area .cart p {
+  display: inline;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* second-navbar */
+.header .second-nav {
+  height: 40px;
+  background-color: var(--secondary-dark);
+}
+
+.header .second-nav ul li a .icon {
+  /* padding: 0 5px; */
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0 5px;
+}
+
+.header .second-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.header .second-nav ul li a {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header .second-nav ul li {
+  margin: 0 10px;
+}
+
+.header .second-nav ul {
+  height: 100%;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
