@@ -1,6 +1,6 @@
 import style from './header.module.css'
 import {Link} from 'react-router-dom'
-import useFetch from '../hooks/useFetch';
+import useFetch from '@app/hooks/useFetch';
 const Header = () => {
 
     const secNav = useFetch('http://localhost:5000/second-nav')
