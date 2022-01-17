@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom'
 import useFetch from '@app/hooks/useFetch';
 const Header = () => {
 
-    const secNav = useFetch('http://localhost:5000/second-nav')
+    const secNav = useFetch('http://localhost:5000/second-nav');
+    const categories = useFetch('http://localhost:5000/category')
     return (
         <header className={style['header']}>
         <nav className={`${style['top-nav']} flex`}>
@@ -17,9 +18,13 @@ const Header = () => {
             <div className={style["search-bar"]}>
                 <div className="form-group">
                     <select name="" id={style.cat}>
-                        <option value="All">All</option>
-                        <option value="Clothes">Clothes</option>
-                        <option value="Electronics">Electronics</option>
+                            {/* <option value="All">All</option>
+                            <option value="Clothes">Clothes</option>
+                            <option value="Electronics">Electronics</option> */
+                            categories?.map(data=>(
+                                <option value={data.title}>{data.title}</option>
+                            ))
+                            }
                     </select>
                     <input type="search" id={style['search-input']} />
                     <button className="btn btn-primary"><i className="fas fa-search"></i></button>

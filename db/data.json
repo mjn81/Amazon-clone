@@ -5,10 +5,17 @@
         {"id" : 3 , "title" : "Registery" , "route" : "registery"}
     ],
     "category" :[
-        {"id" : 1 , "title" : "Electornics" , "route" : "electronics"},
-        {"id" : 2 , "title" : "Clothing" , "route" : "todayDeal"},
-        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"},
-        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"},
-        {"id" : 1 , "title" : "Today's Deals" , "route" : "todayDeal"}
+        {"id" : 1 , "title" : "All" , "route" : "products"},
+        {"id" : 2 , "title" : "Electornics" , "route" : "products/electronics"},
+        {"id" : 3 , "title" : "Clothing" , "route" : "products/todayDeal"},
+        {"id" : 4 , "title" : "Games" , "route" : "products/games"},
+        {"id" : 5 , "title" : "Musics" , "route" : "products/musics"},
+        {"id" : 6 , "title" : "Furniture" , "route" : "products/furnitures"}
+    ],
+    "slider" :[
+        {"id" : 1 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"},
+        {"id" : 2 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"},
+        {"id" : 3 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"},
+        {"id" : 4 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"}
     ]
 }
