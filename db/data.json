@@ -13,9 +13,9 @@
         {"id" : 6 , "title" : "Furniture" , "route" : "products/furnitures"}
     ],
     "slider" :[
-        {"id" : 1 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"},
-        {"id" : 2 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"},
-        {"id" : 3 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"},
-        {"id" : 4 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://picsum.photos/1920/1080"}
+        {"id" : 1 , "title" : "Slide1" , "route" : "electronics/product1" , "img" : "https://via.placeholder.com/1920x1080"},
+        {"id" : 2 , "title" : "Slide2" , "route" : "electronics/product1" , "img" : "https://via.placeholder.com/1920x1080"},
+        {"id" : 3 , "title" : "Slide3" , "route" : "electronics/product1" , "img" : "https://via.placeholder.com/1920x1080"},
+        {"id" : 4 , "title" : "Slide4" , "route" : "electronics/product1" , "img" : "https://via.placeholder.com/1920x1080"}
     ]
 }

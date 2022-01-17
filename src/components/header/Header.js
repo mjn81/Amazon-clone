@@ -22,7 +22,7 @@ const Header = () => {
                             <option value="Clothes">Clothes</option>
                             <option value="Electronics">Electronics</option> */
                             categories?.map(data=>(
-                                <option value={data.title}>{data.title}</option>
+                                <option key={data.id} value={data.title}>{data.title}</option>
                             ))
                             }
                     </select>
