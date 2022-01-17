@@ -1,21 +1,20 @@
 import { useEffect , useState } from "react";
-
+import axios from "axios";
 
 const useFetch = (address) => {
-    const [ans  , setAns] = useState(null)
+    const [res , setRes] = useState(null);
     useEffect(()=>{
-        fetch(address)
-        .then(res=>{
-            return res.json()
-        })
-        .then(body=>{
-            setAns(body)
-        })
+        axios.get(address)
+        .then(
+            result => {
+                setRes(result.data);
+            }
+        )
 
 
     } 
     , [address])
-    return ans
+    return res;
 }
  
 export default useFetch;

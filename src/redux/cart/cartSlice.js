@@ -13,7 +13,7 @@ const cartSlice = createSlice({
         },
         removeFromCart : (state , payload) =>{
             if(payload.amount >1){
-                state.cart.filter((element) => (element!=payload.products[0]));
+                state.cart.filter((element) => (element!==payload.products[0]));
                 state.numOfProducts -=payload.amount;
             } else{
                 state.cart.splice(state.cart.indexOf(payload.product));  
