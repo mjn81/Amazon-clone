@@ -1,11 +1,12 @@
 .container {
   width: 100%;
   overflow: hidden;
-  height: 700px;
+  height: 800px;
   position: relative;
 }
-.container ul li img {
-  width: 100%;
+
+.container .slider .slide {
   position: absolute;
-  /* display: inline-block; */
+  width: 100%;
+  transition: translate 250ms linear;
 }
