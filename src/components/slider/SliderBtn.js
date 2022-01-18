@@ -1,10 +1,13 @@
 import style from './slider.module.css'
-import '@fortawesome/fontawesome-free'
-const SliderBtn = () => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+const SliderBtn = ({isLeft , btnFunction}) => {
     return ( 
-        <div className={style['btn-slider']}>
+        <button className={`${style['btn-slider']} ${isLeft?'' : style.right}`} onClick={btnFunction}>
+            <FontAwesomeIcon icon={isLeft?faChevronLeft:faChevronRight}>
 
-        </div>
+            </FontAwesomeIcon>
+        </button>
 
      );
 }
