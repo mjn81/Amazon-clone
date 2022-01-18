@@ -13,10 +13,18 @@
 
 .slider .pre {
   transform: translateX(-100%);
+  opacity: 1;
 }
 .slider .nxt {
   transform: translateX(100%);
+  opacity: 0;
 }
 .slider .active {
   transform: translateX(0);
+  opacity: 1;
+}
+
+.btn-slider {
+  width: 10%;
+  background-color: rgba(255, 255, 255, 0.2);
 }

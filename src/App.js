@@ -1,8 +1,8 @@
 import './global/reset.css'
 import './global/utilities.css'
 import Home from './components/Home'
-import {BrowserRouter as Router , Route , Switch , Redirect} from 'react-router-dom'
-import React from 'react'
+import {BrowserRouter as Router , Route , Switch , Redirect} from 'react-router-dom';
+import React from 'react';
 
 
 function App() {
