@@ -8,5 +8,15 @@
 .container .slider .slide {
   position: absolute;
   width: 100%;
-  transition: translate 250ms linear;
+  transition: transform 1000ms linear;
+}
+
+.slider .pre {
+  transform: translateX(-100%);
+}
+.slider .nxt {
+  transform: translateX(100%);
+}
+.slider .active {
+  transform: translateX(0);
 }
