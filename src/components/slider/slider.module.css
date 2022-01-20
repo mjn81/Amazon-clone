@@ -12,14 +12,23 @@
   transition: transform 700ms linear;
 }
 
-.slider .pre {
+.slider .for.pre {
   transform: translateX(-100%);
   opacity: 1;
 }
-.slider .nxt {
+.slider .for.nxt {
   transform: translateX(100%);
   opacity: 0;
 }
+.slider .back.pre {
+  transform: translateX(100%);
+  opacity: 1;
+}
+.slider .back.nxt {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
 .slider .active {
   transform: translateX(0);
   opacity: 1;
